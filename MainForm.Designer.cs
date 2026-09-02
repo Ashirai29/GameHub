@@ -3,7 +3,7 @@ using System.Windows.Forms;
 
 namespace GameHub
 {
-    partial class MainForm
+    partial class frmDashboard
     {
         private System.ComponentModel.IContainer components = null;
 
@@ -739,6 +739,7 @@ namespace GameHub
             btnPlayGuessNumber.TabIndex = 5;
             btnPlayGuessNumber.Text = "PLAY";
             btnPlayGuessNumber.UseVisualStyleBackColor = false;
+            btnPlayGuessNumber.Click += btnPlayGuessNumber_Click;
             // 
             // pnlMemoryTiles
             // 
@@ -820,6 +821,7 @@ namespace GameHub
             btnPlayMemoryTiles.TabIndex = 5;
             btnPlayMemoryTiles.Text = "PLAY";
             btnPlayMemoryTiles.UseVisualStyleBackColor = false;
+            btnPlayMemoryTiles.Click += btnPlayMemoryTiles_Click;
             // 
             // pnlMathChallenge
             // 
@@ -901,6 +903,7 @@ namespace GameHub
             btnPlayMathChallenge.TabIndex = 5;
             btnPlayMathChallenge.Text = "PLAY";
             btnPlayMathChallenge.UseVisualStyleBackColor = false;
+            btnPlayMathChallenge.Click += btnPlayMathChallenge_Click;
             // 
             // pnlTicTacToe
             // 
@@ -982,6 +985,7 @@ namespace GameHub
             btnPlayTicTacToe.TabIndex = 5;
             btnPlayTicTacToe.Text = "PLAY";
             btnPlayTicTacToe.UseVisualStyleBackColor = false;
+            btnPlayTicTacToe.Click += btnPlayTicTacToe_Click;
             // 
             // pnlWordScramble
             // 
@@ -1225,6 +1229,7 @@ namespace GameHub
             btnPlaySnake.TabIndex = 5;
             btnPlaySnake.Text = "PLAY";
             btnPlaySnake.UseVisualStyleBackColor = false;
+            btnPlaySnake.Click += btnPlaySnake_Click;
             // 
             // pnlHangman
             // 
@@ -1469,7 +1474,7 @@ namespace GameHub
             btnPlayReactionTime.Text = "PLAY";
             btnPlayReactionTime.UseVisualStyleBackColor = false;
             // 
-            // MainForm
+            // frmDashboard
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -1481,7 +1486,7 @@ namespace GameHub
             ForeColor = Color.White;
             Margin = new Padding(3, 4, 3, 4);
             MinimumSize = new Size(1369, 944);
-            Name = "MainForm";
+            Name = "frmDashboard";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "GameHub";
             pnlSidebar.ResumeLayout(false);
