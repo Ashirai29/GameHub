@@ -151,6 +151,7 @@ namespace GameHub
             btnCheckGuess.TabIndex = 3;
             btnCheckGuess.Text = "CHECK GUESS";
             btnCheckGuess.UseVisualStyleBackColor = false;
+            btnCheckGuess.Click += btnCheckGuess_Click;
             // 
             // lblHint
             // 
@@ -179,6 +180,7 @@ namespace GameHub
             btnNewGame.TabIndex = 5;
             btnNewGame.Text = "NEW GAME";
             btnNewGame.UseVisualStyleBackColor = false;
+            btnNewGame.Click += btnNewGame_Click;
             // 
             // pnlStats
             // 
