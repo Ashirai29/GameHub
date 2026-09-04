@@ -46,11 +46,36 @@ The following parts have been started:
 - ✅ Main GameHub dashboard interface
 - ✅ Guess the Number interface
 - ✅ Initial Guess the Number game logic
+- 🎨 Memory Tiles interface design
+- 🎨 Tic Tac Toe interface design
+- 🎨 Snake interface design
 - 🚧 Guess the Number scoring
 - 🚧 Microsoft SQL Server database
 - 📋 Player registration and login
 - 📋 Score tracking and leaderboards
-- 📋 Remaining games
+- 📋 Remaining game logic
+
+---
+
+## 📸 Screenshots
+
+### Main Dashboard
+
+The main dashboard provides access to the complete GameHub games library, player profile, statistics, achievements and settings.
+
+![GameHub Main Dashboard](Screenshots/MainDashboard.png)
+
+### Game Interfaces
+
+| Guess the Number | Memory Tiles |
+|---|---|
+| ![Guess the Number](Screenshots/GuessNumber.png) | ![Memory Tiles](Screenshots/MemoryTiles.png) |
+
+| Tic Tac Toe | Snake |
+|---|---|
+| ![Tic Tac Toe](Screenshots/TicTacToe.png) | ![Snake](Screenshots/Snake.png) |
+
+> Some interfaces shown above are still design previews. Their complete game logic and database tracking will be added during development.
 
 ---
 
@@ -59,12 +84,12 @@ The following parts have been started:
 | # | Game | Category | Difficulty | Status |
 |---:|---|---|---|---|
 | 1 | ❓ Guess the Number | Logic | Easy | 🚧 In development |
-| 2 | 🧠 Memory Tiles | Memory | Medium | 📋 Planned |
+| 2 | 🧠 Memory Tiles | Memory | Medium | 🎨 UI designed |
 | 3 | ➕ Math Challenge | Mathematics | Medium | 📋 Planned |
-| 4 | ⭕ Tic Tac Toe | Strategy | Easy | 📋 Planned |
+| 4 | ⭕ Tic Tac Toe | Strategy | Easy | 🎨 UI designed |
 | 5 | 🔤 Word Scramble | Words | Medium | 📋 Planned |
 | 6 | 🔵 Bubble Popper | Speed | Easy | 📋 Planned |
-| 7 | 🐍 Snake | Arcade | Hard | 📋 Planned |
+| 7 | 🐍 Snake | Arcade | Hard | 🎨 UI designed |
 | 8 | 💡 Hangman | Words | Medium | 📋 Planned |
 | 9 | 🎨 Simon Says | Memory | Hard | 📋 Planned |
 | 10 | ⚡ Reaction Time | Reflex | Easy | 📋 Planned |
@@ -200,6 +225,13 @@ GameHub/
 │   ├── Player.cs
 │   └── GameResult.cs
 │
+├── Screenshots/
+│   ├── GuessNumber.png
+│   ├── MainDashboard.png
+│   ├── MemoryTiles.png
+│   ├── Snake.png
+│   └── TicTacToe.png
+│
 ├── Services/
 │   ├── AuthenticationService.cs
 │   ├── PasswordHasher.cs
@@ -305,6 +337,9 @@ When the feature is complete, it can be merged into `master` through a pull requ
 - [x] Create the main dashboard design
 - [x] Create the Guess the Number interface
 - [x] Add the initial Guess the Number logic
+- [x] Create the Memory Tiles interface
+- [x] Create the Tic Tac Toe interface
+- [x] Create the Snake interface
 - [ ] Complete Guess the Number scoring
 - [ ] Create the SQL Server database
 - [ ] Add player registration
@@ -314,12 +349,12 @@ When the feature is complete, it can be merged into `master` through a pull requ
 - [ ] Connect Guess the Number to the database
 - [ ] Create the high-score page
 - [ ] Create the player statistics page
-- [ ] Implement Memory Tiles
+- [ ] Implement Memory Tiles game logic
 - [ ] Implement Math Challenge
-- [ ] Implement Tic Tac Toe
+- [ ] Implement Tic Tac Toe game logic
 - [ ] Implement Word Scramble
 - [ ] Implement Bubble Popper
-- [ ] Implement Snake
+- [ ] Implement Snake game logic
 - [ ] Implement Hangman
 - [ ] Implement Simon Says
 - [ ] Implement Reaction Time
