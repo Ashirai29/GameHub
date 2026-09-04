@@ -1,6 +1,6 @@
 <div align="center">
 
-# ?? GameHub
+# 🎮 GameHub
 
 ### A C# Windows Forms Desktop Arcade
 
@@ -12,13 +12,13 @@ A collection of ten mini-games with player accounts, score tracking, statistics,
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![Licence](https://img.shields.io/badge/Licence-MIT-green?style=for-the-badge)
 
-**Developed by Ashley Ashirai Hlatshwayo � GHOSTTECH.Ashirai**
+**Developed by Ashley Ashirai Hlatshwayo — GHOSTTECH.Ashirai**
 
 </div>
 
 ---
 
-## ?? About GameHub
+## 📖 About GameHub
 
 **GameHub** is a C# Windows Forms desktop arcade that brings several small games together in one application.
 
@@ -37,27 +37,27 @@ GameHub is being developed as a personal learning and portfolio project.
 
 ---
 
-## ?? Project Status
+## 🚧 Project Status
 
 > GameHub is currently under active development.
 
 The following parts have been started:
 
-- ? Main GameHub dashboard interface
-- ? Guess the Number interface
-- ? Initial Guess the Number game logic
-- ?? Memory Tiles interface design
-- ?? Tic Tac Toe interface design
-- ?? Snake interface design
-- ?? Guess the Number scoring
-- ?? Microsoft SQL Server database
-- ?? Player registration and login
-- ?? Score tracking and leaderboards
-- ?? Remaining game logic
+- ✅ Main GameHub dashboard interface
+- ✅ Guess the Number interface
+- ✅ Initial Guess the Number game logic
+- 🎨 Memory Tiles interface design
+- 🎨 Tic Tac Toe interface design
+- 🎨 Snake interface design
+- 🚧 Guess the Number scoring
+- 🚧 Microsoft SQL Server database
+- 📋 Player registration and login
+- 📋 Score tracking and leaderboards
+- 📋 Remaining game logic
 
 ---
 
-## ?? Screenshots
+## 📸 Screenshots
 
 ### Main Dashboard
 
@@ -79,24 +79,24 @@ The main dashboard provides access to the complete GameHub games library, player
 
 ---
 
-## ??? Games
+## 🕹️ Games
 
 | # | Game | Category | Difficulty | Status |
 |---:|---|---|---|---|
-| 1 | ? Guess the Number | Logic | Easy | ?? In development |
-| 2 | ?? Memory Tiles | Memory | Medium | ?? UI designed |
-| 3 | ? Math Challenge | Mathematics | Medium | ?? Planned |
-| 4 | ? Tic Tac Toe | Strategy | Easy | ?? UI designed |
-| 5 | ?? Word Scramble | Words | Medium | ?? Planned |
-| 6 | ?? Bubble Popper | Speed | Easy | ?? Planned |
-| 7 | ?? Snake | Arcade | Hard | ?? UI designed |
-| 8 | ?? Hangman | Words | Medium | ?? Planned |
-| 9 | ?? Simon Says | Memory | Hard | ?? Planned |
-| 10 | ? Reaction Time | Reflex | Easy | ?? Planned |
+| 1 | ❓ Guess the Number | Logic | Easy | 🚧 In development |
+| 2 | 🧠 Memory Tiles | Memory | Medium | 🎨 UI designed |
+| 3 | ➕ Math Challenge | Mathematics | Medium | 📋 Planned |
+| 4 | ⭕ Tic Tac Toe | Strategy | Easy | 🎨 UI designed |
+| 5 | 🔤 Word Scramble | Words | Medium | 📋 Planned |
+| 6 | 🔵 Bubble Popper | Speed | Easy | 📋 Planned |
+| 7 | 🐍 Snake | Arcade | Hard | 🎨 UI designed |
+| 8 | 💡 Hangman | Words | Medium | 📋 Planned |
+| 9 | 🎨 Simon Says | Memory | Hard | 📋 Planned |
+| 10 | ⚡ Reaction Time | Reflex | Easy | 📋 Planned |
 
 ---
 
-## ? Planned Features
+## ✨ Planned Features
 
 ### Player Accounts
 
@@ -137,7 +137,7 @@ The main dashboard provides access to the complete GameHub games library, player
 
 ---
 
-## ??? Technologies
+## 🛠️ Technologies
 
 | Technology | Purpose |
 |---|---|
@@ -153,7 +153,7 @@ The main dashboard provides access to the complete GameHub games library, player
 
 ---
 
-## ??? Planned Database
+## 🗄️ Planned Database
 
 GameHub will use one shared Microsoft SQL Server database for all ten games.
 
@@ -203,54 +203,54 @@ erDiagram
 
 ---
 
-## ?? Suggested Project Structure
+## 📁 Suggested Project Structure
 
 ```text
 GameHub/
-??? Database/
-?   ??? GameHubDatabase.sql
-?
-??? Data/
-?   ??? DatabaseConnection.cs
-?   ??? GameTrackingService.cs
-?
-??? GameLogic/
-?   ??? GuessNumberGame.cs
-?   ??? MemoryTilesGame.cs
-?   ??? MathChallengeGame.cs
-?   ??? TicTacToeGame.cs
-?   ??? ...
-?
-??? Models/
-?   ??? Player.cs
-?   ??? GameResult.cs
-?
-??? Screenshots/
-?   ??? GuessNumber.png
-?   ??? MainDashboard.png
-?   ??? MemoryTiles.png
-?   ??? Snake.png
-?   ??? TicTacToe.png
-?
-??? Services/
-?   ??? AuthenticationService.cs
-?   ??? PasswordHasher.cs
-?   ??? HighScoreService.cs
-?
-??? MainForm.cs
-??? MainForm.Designer.cs
-??? GuessNumberForm.cs
-??? GuessNumberForm.Designer.cs
-??? Program.cs
-??? GameHub.csproj
-??? GameHub.sln
+├── Database/
+│   └── GameHubDatabase.sql
+│
+├── Data/
+│   ├── DatabaseConnection.cs
+│   └── GameTrackingService.cs
+│
+├── GameLogic/
+│   ├── GuessNumberGame.cs
+│   ├── MemoryTilesGame.cs
+│   ├── MathChallengeGame.cs
+│   ├── TicTacToeGame.cs
+│   └── ...
+│
+├── Models/
+│   ├── Player.cs
+│   └── GameResult.cs
+│
+├── Screenshots/
+│   ├── GuessNumber.png
+│   ├── MainDashboard.png
+│   ├── MemoryTiles.png
+│   ├── Snake.png
+│   └── TicTacToe.png
+│
+├── Services/
+│   ├── AuthenticationService.cs
+│   ├── PasswordHasher.cs
+│   └── HighScoreService.cs
+│
+├── MainForm.cs
+├── MainForm.Designer.cs
+├── GuessNumberForm.cs
+├── GuessNumberForm.Designer.cs
+├── Program.cs
+├── GameHub.csproj
+└── GameHub.sln
 ```
 
 > The project structure may change as development continues.
 
 ---
 
-## ?? Getting Started
+## 💻 Getting Started
 
 ### Requirements
 
@@ -264,7 +264,7 @@ Before running GameHub, install:
 
 ---
 
-## ?? Clone the Repository
+## 📥 Clone the Repository
 
 Open Git Bash, Command Prompt or the Visual Studio terminal:
 
@@ -288,7 +288,7 @@ You can also open `GameHub.sln` manually using Visual Studio.
 
 ---
 
-## ?? Run the Application
+## ▶️ Run the Application
 
 1. Open `GameHub.sln` in Visual Studio.
 2. Allow Visual Studio to restore the NuGet packages.
@@ -300,7 +300,7 @@ Database-dependent features will require a valid SQL Server connection after the
 
 ---
 
-## ?? Development Workflow
+## 🌿 Development Workflow
 
 Create a different branch for each feature.
 
@@ -332,7 +332,7 @@ When the feature is complete, it can be merged into `master` through a pull requ
 
 ---
 
-## ??? Roadmap
+## 🗺️ Roadmap
 
 - [x] Create the main dashboard design
 - [x] Create the Guess the Number interface
@@ -364,7 +364,7 @@ When the feature is complete, it can be merged into `master` through a pull requ
 
 ---
 
-## ?? Contributing
+## 🤝 Contributing
 
 GameHub is currently a personal learning and portfolio project.
 
@@ -381,7 +381,7 @@ If contributions are opened in the future:
 
 ---
 
-## ?? Author
+## 👤 Author
 
 ### Ashley Ashirai Hlatshwayo
 
@@ -392,7 +392,7 @@ If contributions are opened in the future:
 
 ---
 
-## ?? Licence
+## 📄 Licence
 
 This project is licensed under the **MIT Licence**.
 
@@ -402,7 +402,7 @@ See the [`LICENSE.txt`](LICENSE.txt) file for complete licence information.
 
 <div align="center">
 
-### ?? GameHub
+### 🎮 GameHub
 
 **Play. Compete. Improve.**
 
